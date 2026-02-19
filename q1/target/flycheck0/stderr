@@ -1,0 +1,28 @@
+   0.010183244s  INFO prepare_target{force=false package_id=q1 v0.1.0 (/home/victor/code/rust/assignment-4-tinhangv/q1) target="q1"}: cargo::core::compiler::fingerprint: fingerprint error for q1 v0.1.0 (/home/victor/code/rust/assignment-4-tinhangv/q1)/Check { test: true }/TargetInner { name: "q1", doc: true, ..: with_path("/home/victor/code/rust/assignment-4-tinhangv/q1/src/main.rs", Edition2024) }
+   0.010197841s  INFO prepare_target{force=false package_id=q1 v0.1.0 (/home/victor/code/rust/assignment-4-tinhangv/q1) target="q1"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/victor/code/rust/assignment-4-tinhangv/q1/target/debug/.fingerprint/q1-81cc054a073c286e/test-bin-q1`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: __libc_start_call_main
+  17: __libc_start_main_alias_1
+  18: <unknown>
+    Checking q1 v0.1.0 (/home/victor/code/rust/assignment-4-tinhangv/q1)
+error: could not compile `q1` (bin "q1" test) due to 1 previous error
